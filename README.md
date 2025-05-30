@@ -43,11 +43,13 @@ Swagger UI (si configurado): http://localhost:8080/swagger-ui.html
 
 ## ⚙️ Variables de entorno (ya configuradas en docker-compose.yml)
 
-| Variable                     | Valor                                      |
-| ---------------------------- | ------------------------------------------ |
-| SPRING\_DATASOURCE\_URL      | jdbc\:postgresql://postgres:5432/db\_tenpo |
-| SPRING\_DATASOURCE\_USERNAME | ojacome                                    |
-| SPRING\_DATASOURCE\_PASSWORD | 12345678                                   |
+| Variable                        | Valor                                      |
+|---------------------------------|--------------------------------------------|
+| SPRING\_DATASOURCE\_URL         | jdbc\:postgresql://postgres:5432/db\_tenpo |
+| SPRING\_DATASOURCE\_USERNAME    | ojacome                                    |
+| SPRING\_DATASOURCE\_PASSWORD    | 12345678                                   |
+| CACHE_PERCENTAGE_EXPIRE_MINUTES | 30                                         |
+| EXTERNAL_SERVICE_URL            | https://b228a110-1857-4572-9f1a-7eb59c1e2058.mock.pstmn.io/api/percentage                                           |
 
 ## 🧪 Pruebas
 ```bash

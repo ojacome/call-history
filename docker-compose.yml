@@ -29,6 +29,7 @@ services:
       SPRING_DATASOURCE_USERNAME: ojacome
       SPRING_DATASOURCE_PASSWORD: 12345678
       CACHE_PERCENTAGE_EXPIRE_MINUTES: 30
+      EXTERNAL_SERVICE_URL: https://b228a110-1857-4572-9f1a-7eb59c1e2058.mock.pstmn.io/api/percentage
     ports:
       - "8080:8080"
     restart: unless-stopped

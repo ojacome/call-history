@@ -13,6 +13,7 @@ import org.springframework.cache.caffeine.CaffeineCacheManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import io.swagger.v3.oas.models.info.Info;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.concurrent.TimeUnit;
 
@@ -30,8 +31,13 @@ public class ApplicationConfig {
     }
 
     @Bean
-    public ExternalService externalService() {
-        return new ExternalService();
+    public ExternalService externalService(RestTemplate restTemplate) {
+        return new ExternalService(restTemplate);
+    }
+
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
     }
 
     @Bean
