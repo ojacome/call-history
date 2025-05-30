@@ -10,8 +10,6 @@ Asegúrate de tener lo siguiente instalado:
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/)
-- [Java 21 (JDK)](https://jdk.java.net/21/) *(solo si deseas compilar localmente sin Docker)*
-- [Gradle](https://gradle.org/install/) *(opcional si usas `./gradlew`)*
 
 ---
 
