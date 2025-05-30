@@ -24,17 +24,12 @@ Asegúrate de tener lo siguiente instalado:
    ```
 
 
-2. **Compila ej jar** (No necesario, Ya se encuentra el jar)
-   ```bash
-   ./gradlew clean build
-    ```
-
-3. **Levanta la app con Docker** 
+2. **Levanta la app con Docker** 
    ```bash
    docker-compose up --build
     ```
 
-4. **Documentacion** 
+3. **Documentacion** 
 
 Swagger UI (si configurado): http://localhost:8080/swagger-ui.html
 
