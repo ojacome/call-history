@@ -41,7 +41,7 @@ Swagger UI (si configurado): http://localhost:8080/swagger-ui.html
 
 
 
-## ⚙️ Variables de entorno (ya configuradas en docker-compose.yml)
+## ⚙️ Variables de entorno (ya configuradas en docker-compose.yml) 
 
 | Variable                        | Valor                                      |
 |---------------------------------|--------------------------------------------|
